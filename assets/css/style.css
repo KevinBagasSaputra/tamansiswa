@@ -1,0 +1,499 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: poppins;
+}
+
+/* Marquee START */
+.marquee{
+    width: 100%;
+    background-color: black;
+}
+
+.marquee .container{
+    padding: 5px;
+}
+
+.marquee .container marquee{
+    color: white;
+}
+
+.marquee .container marquee p{
+    font-size: 1em;
+}
+/* Marquee END */
+
+
+/* Navbar START */
+nav{
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+}
+
+nav .container{
+    padding: 10px;
+}
+
+nav .container .auth{
+    padding: 10px;
+} nav .container .auth .log , .reg{
+    color: white;
+    border-radius: 6px;
+    background-color: green;
+}nav .container .auth .log:hover{
+    background-color: rgb(12, 82, 12);
+}nav .container .auth .reg:hover{
+    background-color: rgb(12, 82, 12);
+}
+
+nav .container ul{
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+nav .container ul .tengah{
+    align-items: center;
+
+    display: flex;
+    justify-content: end;
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+nav .container ul li a{
+    font-size: 1em;
+    padding: 10px;
+    color: white;
+    
+    text-decoration: none;
+    /* text-decoration: underline;
+    text-underline-offset: 10px; */
+    transition: all ease-out 1550ms;
+}nav .container ul li .beranda:hover, .tujuan:hover, .pengajar:hover, .hubungi:hover{
+    color: gold;
+    padding: 10px;
+    text-decoration: underline white;
+    text-underline-offset: 5px;
+
+    transition: all ease-in 150ms;
+    box-shadow: 0 0 100px 5px black;
+}
+
+nav .container ul li a img{
+    width: 30vw;
+    height: 10vh;
+    object-fit: contain;
+
+    max-width: 17vw;
+}
+/* Navbar END */
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+}
+
+.hero .container{
+    height: 60vh;
+    background-image: url('../img/tamsis44.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.hero .container .text{
+    padding: 10px;
+    text-align: center;
+}
+
+.hero .container .text h2{
+    font-size: 2em;
+    color: white;
+
+    margin: 10px;
+    margin-top: 15vh; 
+    top: 50%;
+}
+
+.hero .container .text h3{
+}
+
+.hero .container .text a{
+    color: black;
+    font-size: 13.5px;
+    text-decoration: none;
+
+    padding: 5px;
+
+    /* border: 2px solid goldenrod; */
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    transition: all ease-out 1210ms;
+}.hero .container .text a:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition: all ease-in 250ms;
+}
+
+
+/* .hero .container img{
+} */
+ /* width: 100vw; */
+ /* height: 80vh; */
+ /* height: 50vh; */
+ /* object-fit: cover; */
+/* Hero END */
+
+
+/* Contact START */
+.contact{
+    width: 100%;
+
+    background-color: rgb(255, 217, 0);
+
+}
+
+.contact .container{
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.contact .container ul{
+    text-align: center;
+    padding: 10px;
+}
+
+.contact .container ul .judul{
+    color: red;
+    background-color: white;
+    font-weight: 500;
+
+    border: 1px solid red;
+    border-radius: 6px;
+    
+}
+
+.contact .container ul h2{
+    color: black;
+    margin: 10px;
+
+    text-align: left;
+}
+
+.contact .container ul .alamat{
+    text-align: left;
+    font-size: 13px;
+}
+
+.contact .container ul a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}.contact .container ul a:hover{
+    color: green;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+
+
+
+
+.contact .container ul .judul_kontak{
+    font-size: 12.7px;
+    color: green;
+}
+
+.contact .container ul .telp{
+    color: green;
+    font-size: 22px;
+    text-decoration: none;
+}
+/* Contact END*/
+
+
+
+
+/* Content STRT */
+.about{
+    width: 100%;
+    /* background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20200907/pngtree-green-line-education-pen-background-image_398167.jpg'); */
+    background-image: url('../img/main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.about h2{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.about .container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .container ul img{
+    width: 100%;
+    min-height: 300px;
+    max-height: 500px;
+}
+
+.about .container .text{
+    /* width: 80%; */
+    min-width: 100px;
+    max-width: 900px;
+
+    padding: 10px;
+}
+
+
+.about .container .text p{
+    color: white;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.about .container .text .container{
+        /* background-color: #333; */
+        /*
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+        */
+}
+
+
+.about .container .text .container h3{
+    text-align: center;
+    color: black;
+}
+
+.about .container .text .container ul{
+    padding: 10px;
+}
+
+.about .contact .text .container ul p{
+    color: black;
+}
+
+
+    /* Kompetensi Keahlian START */
+    .about .container .text .container ul{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.76);
+    }
+    /* TITL START */
+        .about .container .text .container ul .titl h4{
+            color: green;
+        }
+        .about .container .text .container ul .titl details .titl{
+            font-weight: 700;
+            color: green;
+        }
+        .about .container .text .container ul .titl details p{
+            color: rgb(8, 104, 8);
+        }
+    /* TITL START */
+
+
+    /* TP START */
+        .about .container .text .container ul .tp h4{
+            color: gold;
+        }
+        .about .container .text .container ul .tp details .tp{
+            font-weight: 700;
+            color: gold;
+        }
+        .about .container .text .container ul .tp details p{
+            color: rgb(226, 193, 4);
+        }
+    /* TP END*/
+
+
+    /* TKJ START */
+        .about .container .text .container ul .tkj h4{
+            color: lightblue;
+        }
+        .about .container .text .container ul .tkj details .tkj{
+            font-weight: 700;
+            color: lightblue;
+        }
+        .about .container .text .container ul .tkj details p{
+            color: rgb(139, 183, 197)
+        }
+    /* TKJ END */
+
+
+    /* RPL START */
+        .about .container .text .container ul .rpl h4{
+            color: purple;
+        }
+        .about .container .text .container ul .rpl details .rpl{
+            font-weight: 700;
+            color: purple;
+        }
+        .about .container .text .container ul .rpl details p{
+            color: rgb(124, 2, 124);
+        }
+    /* RPL END*/
+
+
+    /* TKR START */
+    .about .container .text .container ul .tkr h4{
+        color: orange;
+        }
+        .about .container .text .container ul .tkr details .tkr{
+            font-weight: 700;
+            color: orange;
+        }
+        .about .container .text .container ul .tkr details p{
+            color: rgb(230, 150, 3);
+        }
+    /* TKR END*/
+
+
+    /* TSM START */
+        .about .container .text .container ul .tsm h4{
+            color: red;
+        }
+        .about .container .text .container ul .tsm details .tsm{
+            font-weight: 700;
+            color: red;
+        }
+        .about .container .text .container ul .tsm details p{
+            color: rgb(223, 10, 10);
+        }
+    /* TSM END*/
+
+
+    /* Kompetensi Keahlian END*/
+
+        /* VISI dan MISI START */
+        .about .container .visi_misi{
+            border-radius: 10px;
+        }
+        /* VISI dan MISI END*/
+/* Content END*/
+
+
+
+
+/* Berita START */
+.berita{
+    width: 100%;
+}
+
+.berita .container{
+    padding: 10px;
+}
+
+.berita .container h2{
+    color: black;
+}
+
+.berita .container .kumpulan_berita{
+    width: 100%;
+}
+
+.berita .container .kumpulan_berita .container{
+    padding: 10px;
+}
+
+.berita .container .kumpulan_berita .container ul{
+    /* text-align: center; */    display: flex;
+    justify-content:center;
+
+    flex-wrap: wrap;
+    
+
+}
+
+.berita .container .kumpulan_berita .container ul .rpl{
+
+    box-shadow: 0 0 10px 1px;
+    background-color: white;
+
+}
+
+.berita .container .kumpulan_berita .container ul .rpl .container{
+    /* min-width: 80%;
+    max-width: 80%; */
+    min-width: 100px;
+    max-width: 500px;
+}
+
+.berita .container .kumpulan_berita .container ul .rpl .container h3{
+    text-align: left;
+}
+
+.berita .container .kumpulan_berita .container ul .rpl .container{
+    color: black;
+    text-decoration: none;
+}
+
+.berita .container .kumpulan_berita .container ul .rpl .container a img{
+    width: 100%;
+    min-height: 300px;
+    max-height: 200px;
+
+    object-fit:contain;
+    background-color: black;
+}
+
+.berita .container .kumpulan_berita .container ul .rpl .container a:hover{
+    box-shadow: 0 0 10px 1px  gold;
+    background-color: goldenrod;
+}
+/* Berita END */
+
+
+/* Wa START */
+/* WA START */
+.wa{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    transition: all ease 10ms;
+    filter: grayscale(100%)
+}.wa:hover{
+    filter: none;
+
+    transition: all ease-in-out 50ms;
+}
+
+.wa .container{
+    padding: 10px;
+}
+
+.wa .container ul{
+    display: flex;
+    justify-content: end;
+}
+
+.wa .container ul a{
+    padding: 10px;
+    text-align: end;
+
+}
+
+.wa .container ul a img{
+    width: 20%;
+}
+/* WA END */
+/* Wa END */
