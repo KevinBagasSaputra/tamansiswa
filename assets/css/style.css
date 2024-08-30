@@ -11,6 +11,10 @@ body{
 .marquee{
     width: 100%;
     background-color: black;
+
+    z-index: 1;
+    position: sticky;
+    top: 0;
 }
 
 .marquee .container{
@@ -77,7 +81,7 @@ nav .container ul li a{
     text-underline-offset: 10px; */
     transition: all ease-out 1550ms;
 }nav .container ul li .beranda:hover, .tujuan:hover, .pengajar:hover, .hubungi:hover{
-    color: gold;
+    color:  #22A7F0;
     padding: 10px;
     text-decoration: underline white;
     text-underline-offset: 5px;
@@ -103,7 +107,7 @@ nav .container ul li a img{
 
 .hero .container{
     height: 60vh;
-    background-image: url('../img/tamsis44.jpg');
+    background-image: url('../img/hero_Lab_RPL.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -117,10 +121,21 @@ nav .container ul li a img{
 .hero .container .text h2{
     font-size: 2em;
     color: white;
+    text-shadow: 2px 2px 6px #22A7F0;
+
 
     margin: 10px;
     margin-top: 15vh; 
     top: 50%;
+}
+
+.hero .container .text marquee{
+    text-align: center;
+}
+
+.hero .container .text marquee h3{
+    color: white;
+    text-shadow: 2px 2px 6px black;
 }
 
 .hero .container .text h3{
@@ -228,7 +243,8 @@ nav .container ul li a img{
 .about{
     width: 100%;
     /* background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20200907/pngtree-green-line-education-pen-background-image_398167.jpg'); */
-    background-image: url('../img/main.jpg');
+    /* background-image: url('../img/main.jpg'); */
+    background-color:  #4D8FAC;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -239,6 +255,12 @@ nav .container ul li a img{
     color: white;
     text-align: center;
 }
+
+.about p{
+    color: white;
+    text-align: center;
+}
+
 
 .about .container{
     padding: 10px;
@@ -291,6 +313,85 @@ nav .container ul li a img{
     color: black;
 }
 
+    /* Sarana dan Prasarana START */
+        /* Lab RPL */
+        .lab-rpl{
+            width: 100%;
+        }
+
+        .lab-rpl h3{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+
+        .lab-rpl ul{
+            padding: 10px;
+        }
+
+        .lab-rpl ul img{
+            width: 100%;
+        }
+
+        .lab-rpl ul ul{
+            width: 100%;
+            display: flex;
+
+                /* background-color: #333; */
+            overflow: auto;
+            /* white-space: nowrap; */
+
+        }
+
+        .lab-rpl ul ul img{
+            width: 50%;
+            height: 200px;
+            object-fit: cover;
+        }
+        /* Lab RPL */
+
+        /* Lab SAMSUNG */
+        .lab-samsung{
+            width: 100%;
+        }
+
+        .lab-samsung h3{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .lab-samsung ul{
+            padding: 10px;
+        }
+
+        .lab-samsung ul img{
+            width: 100%;
+        }
+
+        .lab-samsung ul ul{
+            width: 100%;
+            display: flex;
+
+            overflow: auto;
+            /* white-space: nowrap; */
+        }
+
+        .lab-samsung ul ul img{
+            width: 50%;
+            height: 200px;
+            object-fit: cover;
+        }
+        /* Lab SAMSUNG */
+    /* Sarana dan Prasarana END*/
+
+
+
+
+
+
+
 
     /* Kompetensi Keahlian START */
     .about .container .text .container ul{
@@ -341,14 +442,14 @@ nav .container ul li a img{
 
     /* RPL START */
         .about .container .text .container ul .rpl h4{
-            color: purple;
+            color: lightblue;
         }
         .about .container .text .container ul .rpl details .rpl{
             font-weight: 700;
-            color: purple;
+            color: lightblue;
         }
         .about .container .text .container ul .rpl details p{
-            color: rgb(124, 2, 124);
+            color: rgb(137, 181, 196);
         }
     /* RPL END*/
 
