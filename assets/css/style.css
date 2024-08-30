@@ -314,74 +314,116 @@ nav .container ul li a img{
 }
 
     /* Sarana dan Prasarana START */
-        /* Lab RPL */
-        .lab-rpl{
+    .sarana_dan_prasarana{
+        width: 100%;
+        background-color:  #EEEEEE;
+    }
+
+    .sarana_dan_prasarana h2{
+        padding: 10px;
+        color: black;
+        text-align: center;
+    }
+    
+    .sarana_dan_prasarana p{
+        color: black;
+        text-align: center;
+    }
+    
+    
+    .sarana_dan_prasarana .container{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .sarana_dan_prasarana.container ul img{
+        width: 100%;
+        min-height: 300px;
+        max-height: 500px;
+    }
+    
+    .sarana_dan_prasarana .container .text{
+        /* width: 80%; */
+        min-width: 100px;
+        max-width: 900px;
+    
+        padding: 10px;
+    }        /* Lab RPL */
+
+        .sarana_dan_prasarana .container .text .lab-rpl{
             width: 100%;
+            margin-bottom: 50px;
         }
 
-        .lab-rpl h3{
+        .sarana_dan_prasarana .container .text .lab-rpl h3{
             color: white;
             background-color: black;
             text-align: center;
         }
 
 
-        .lab-rpl ul{
-            padding: 10px;
+        .sarana_dan_prasarana .container .text .lab-rpl ul{
         }
 
-        .lab-rpl ul img{
+        .sarana_dan_prasarana .container .text .lab-rpl ul img{
             width: 100%;
         }
 
-        .lab-rpl ul ul{
+        .sarana_dan_prasarana .container .text .lab-rpl ul .flex{
             width: 100%;
             display: flex;
 
                 /* background-color: #333; */
             overflow: auto;
-            /* white-space: nowrap; */
+            white-space: nowrap;
 
         }
 
-        .lab-rpl ul ul img{
-            width: 50%;
-            height: 200px;
+        .sarana_dan_prasarana .container .text .lab-rpl ul .flex img{
+            width: 100%;
+            min-height: 100px;
+            max-height: 300px;
             object-fit: cover;
+
+            margin: 10px;
         }
         /* Lab RPL */
 
         /* Lab SAMSUNG */
-        .lab-samsung{
+        .sarana_dan_prasarana .container .text .lab-samsung{
             width: 100%;
         }
 
-        .lab-samsung h3{
+        .sarana_dan_prasarana .container .text .lab-samsung h3{
             color: white;
             background-color: black;
             text-align: center;
         }
 
-        .lab-samsung ul{
-            padding: 10px;
+        .sarana_dan_prasarana .container .text .lab-samsung ul{
         }
 
-        .lab-samsung ul img{
+        .sarana_dan_prasarana .container .text .lab-samsung ul img{
             width: 100%;
         }
 
-        .lab-samsung ul ul{
+        .sarana_dan_prasarana .container .text .lab-samsung ul .flex{
             width: 100%;
             display: flex;
 
             overflow: auto;
-            /* white-space: nowrap; */
+            white-space: nowrap;
         }
 
-        .lab-samsung ul ul img{
-            width: 50%;
-            height: 200px;
+        .sarana_dan_prasarana .container .text .lab-samsung ul .flex img{
+            width: 100%;
+            min-height: 100px;
+            max-height: 300px;
             object-fit: cover;
+
+            margin: 10px;
         }
         /* Lab SAMSUNG */
     /* Sarana dan Prasarana END*/
